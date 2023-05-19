@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#clock{
+  position: relative;
+  margin: auto;
+  border: 2px solid blue;
+  height: 40vw;
+  width: 40vw;
+  background :url(img1.png) no-repeat ;
+  background-size: 100%;
+
+}
+#hour, #min ,#sec{
+  position: absolute;
+  background: black;
+  border-radius: 10px;
+
+}
+#hour {
+ 
+  width: 6px;
+  height: 100px;
+  top: 176px;
+  left: 49.32%;
+  opacity: 0.8;
+  
+}
+
+#min {
+  
+  width: 6px;
+  height: 125px;
+  top: 144px;
+  left: 49.34%;
+  opacity: 0.8;
+  
+}
+#sec {
+  background-color: red;
+  
+  width: 4px;
+  height: 150px;
+  top: 126px;
+  left: 49.45%;
+  opacity: 0.8;
+}
+
